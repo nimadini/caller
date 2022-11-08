@@ -1,0 +1,11 @@
+name: Caller workflow (matrix)
+
+on:
+  push:
+
+  workflow_dispatch:
+
+jobs:
+
+  caller:
+    uses: nimadini/called/.github/workflows/workflow_with_matrix.yml@main
