@@ -7,9 +7,10 @@ on:
 
 jobs:
 
-  strategy:
-    matrix:
-      consumers: [foo, bar]
-
   caller:
+
+    strategy:
+      matrix:
+        consumers: [foo, bar]
+
     uses: nimadini/called/.github/workflows/workflow_with_matrix.yml@main
