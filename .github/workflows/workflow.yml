@@ -4,12 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
+
   job:
-
     runs-on: ubuntu-latest
-
-    steps:
-
-      - name: Call the reusable workflow
-        uses: nimadini/called/.github/workflows/workflow.yml@main
-        shell: bash
+    uses: nimadini/called/.github/workflows/workflow.yml@main
