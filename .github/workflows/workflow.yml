@@ -5,5 +5,5 @@ on:
 
 jobs:
 
-  job:
+  caller:
     uses: nimadini/called/.github/workflows/workflow.yml@main
