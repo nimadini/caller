@@ -8,3 +8,4 @@ jobs:
 
   caller:
     uses: nimadini/called/.github/workflows/workflow.yml@main
+    secrets: inherit
