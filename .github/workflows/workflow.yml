@@ -1,7 +1,6 @@
 name: Caller workflow
 
 on:
-  push:
 
   workflow_dispatch:
 
